@@ -29,3 +29,32 @@
 11:27:33.177 [main] INFO  org.example.OrderServiceTest - result =coffee
 11:27:33.177 [main] INFO  org.example.OrderServiceTest - delete order by id order in map
 11:27:33.178 [main] INFO  org.example.OrderServiceTest - result =null
+12:58:49.255 [main] INFO  org.example.OrderServiceTest - Add order wth id 5 and item coffee
+12:58:49.260 [main] INFO  org.example.OrderServiceTest - delete order by id order in map with param ID 5
+12:59:14.144 [main] INFO  org.example.OrderServiceTest - Add order wth id 5 and item coffee
+12:59:14.148 [main] INFO  org.example.OrderServiceTest - delete order by id order in map with param ID 5
+13:01:27.812 [main] INFO  org.example.OrderServiceTest - Add order wth id 5 and item coffee
+13:01:27.815 [main] INFO  org.example.OrderServiceTest - delete order by id order in map with param ID 5
+13:04:00.044 [main] INFO  org.example.OrderServiceTest - Add order wth id 5 and item coffee
+13:04:00.048 [main] INFO  org.example.OrderServiceTest - delete order by id order in map with param ID 5
+13:04:00.051 [main] INFO  org.example.OrderServiceTest - result =true
+13:04:00.052 [main] INFO  org.example.OrderServiceTest - delete order by id order in map with param ID 1
+13:04:00.053 [main] INFO  org.example.OrderServiceTest - result =false
+13:05:47.015 [main] INFO  org.example.OrderServiceTest - Add order wth id 5 and item coffee
+13:05:47.019 [main] INFO  org.example.OrderServiceTest - delete order by id order in map with param ID 5
+13:05:47.023 [main] INFO  org.example.OrderServiceTest - result =true
+13:05:47.023 [main] INFO  org.example.OrderServiceTest - check by id order in map with param ID 5
+13:05:47.024 [main] INFO  org.example.OrderServiceTest - there is no more order with id 5
+13:05:47.024 [main] INFO  org.example.OrderServiceTest - delete order by id order in map with param ID 1
+13:05:47.024 [main] INFO  org.example.OrderServiceTest - result =false
+13:05:47.025 [main] INFO  org.example.OrderServiceTest - check by id order in map with param ID 1
+13:05:47.025 [main] INFO  org.example.OrderServiceTest - заказ с айди 1 не существует
+13:08:03.152 [main] INFO  org.example.OrderServiceTest - Add order wth id 5 and item coffee
+13:08:03.158 [main] INFO  org.example.OrderServiceTest - delete order by id order in map with param ID 5
+13:08:03.158 [main] INFO  org.example.OrderServiceTest - result =true
+13:08:03.159 [main] INFO  org.example.OrderServiceTest - check by id order in map with param ID 5
+13:08:03.160 [main] INFO  org.example.OrderServiceTest - there is no more order with id 5
+13:08:03.160 [main] INFO  org.example.OrderServiceTest - delete order by id order in map with param ID 1
+13:08:03.160 [main] INFO  org.example.OrderServiceTest - result =false
+13:08:03.160 [main] INFO  org.example.OrderServiceTest - check by id order in map with param ID 1
+13:08:03.160 [main] INFO  org.example.OrderServiceTest - заказ с айди 1 не существует

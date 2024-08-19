@@ -55,15 +55,22 @@ class OrderServiceTest {
     void deleteOrderById() {
         logger.info("Add order wth id 5 and item coffee");
         orderService.saveOrder(5, "coffee");
+        Assertions.assertTrue(orderService.getOrderById(5));
         logger.info("delete order by id order in map with param ID 5");
         boolean a = orderService.deleteOrderById(5);
         Assertions.assertTrue(a);
         logger.info("result =" + a);
+        logger.info("check by id order in map with param ID 5");
+        Assertions.assertFalse(orderService.getOrderById(5));
+        logger.info("there is no more order with id 5");
 
         logger.info("delete order by id order in map with param ID 1");
         boolean b = orderService.deleteOrderById(1);
         Assertions.assertFalse(b);
         logger.info("result =" + b);
+        logger.info("check by id order in map with param ID 1");
+        Assertions.assertFalse(orderService.getOrderById(1));
+        logger.info("заказ с айди 1 не существует");
     }
 
     @Test
