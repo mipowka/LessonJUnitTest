@@ -1,0 +1,31 @@
+16:04:52.757 [main] INFO  org.example.OrderServiceTest - start save order test with param id:5  and item:coffe
+16:04:52.764 [main] INFO  org.example.OrderServiceTest - result  = true
+16:04:52.766 [main] INFO  org.example.OrderServiceTest - start save also order test with param id:5  and item:coffe
+16:04:52.766 [main] INFO  org.example.OrderServiceTest - result  = true
+11:11:27.337 [main] INFO  org.example.OrderServiceTest - Add order wth id 5 and item coffee
+11:11:27.340 [main] INFO  org.example.OrderServiceTest - check by id order in map with param ID 5
+11:11:27.344 [main] INFO  org.example.OrderServiceTest - result =true
+11:11:27.344 [main] INFO  org.example.OrderServiceTest - check by id order in map with param ID 1
+11:14:36.274 [main] INFO  org.example.OrderServiceTest - Add order wth id 5 and item coffee
+11:14:36.285 [main] INFO  org.example.OrderServiceTest - delete order by id order in map with param ID 5
+11:14:36.289 [main] INFO  org.example.OrderServiceTest - result =true
+11:14:36.290 [main] INFO  org.example.OrderServiceTest - delete order by id order in map with param ID 1
+11:14:36.290 [main] INFO  org.example.OrderServiceTest - result =false
+11:20:45.718 [main] INFO  org.example.OrderServiceTest - Add order wth id 5 and item coffee
+11:20:45.722 [main] INFO  org.example.OrderServiceTest - get all orders order in map with param ID 5
+11:20:58.693 [main] INFO  org.example.OrderServiceTest - Add order wth id 5 and item coffee
+11:20:58.696 [main] INFO  org.example.OrderServiceTest - get all orders order in map with param ID 5
+11:21:48.234 [main] INFO  org.example.OrderServiceTest - Add order wth id 5 and item coffee
+11:21:48.243 [main] INFO  org.example.OrderServiceTest - get all orders order in map
+11:21:48.247 [main] INFO  org.example.OrderServiceTest - delete order by id order in map
+11:27:20.828 [main] INFO  org.example.OrderServiceTest - Add order with id 5 and item coffee
+11:27:20.832 [main] INFO  org.example.OrderServiceTest - count of orders order in map
+11:27:20.835 [main] INFO  org.example.OrderServiceTest - result =1
+11:27:20.836 [main] INFO  org.example.OrderServiceTest - delete order by id order in map
+11:27:20.836 [main] INFO  org.example.OrderServiceTest - count of orders order in map
+11:27:20.836 [main] INFO  org.example.OrderServiceTest - result =0
+11:27:33.168 [main] INFO  org.example.OrderServiceTest - Add order with id 5 and item coffee
+11:27:33.172 [main] INFO  org.example.OrderServiceTest - get all orders order in map
+11:27:33.177 [main] INFO  org.example.OrderServiceTest - result =coffee
+11:27:33.177 [main] INFO  org.example.OrderServiceTest - delete order by id order in map
+11:27:33.178 [main] INFO  org.example.OrderServiceTest - result =null
